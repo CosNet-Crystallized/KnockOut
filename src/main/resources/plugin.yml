@@ -1,0 +1,15 @@
+name: knockoff-game
+version: '1.0.0'
+main: gg.knockoff.game.knockoff
+api-version: '1.21.6'
+depend: [FastAsyncWorldEdit, Crystalized_Essentials, ProtocolLib, floodgate]
+authors: [Project CosNet Team, CosMyns]
+prefix: Knockoff
+description: Recreation of TubNet's Knockout!
+commands:
+  knockoff:
+    description: "Commands for KnockOff"
+    usage: "/knockoff"
+    aliases: [ ]
+    permission: knockoff.commands
+    permission-message: "[!] You don't have permission to run this command."
