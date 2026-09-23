@@ -1305,7 +1305,7 @@ class TabMenu {
         //Header
         p.sendPlayerListHeader(
                 text("\n")
-                        .append(text("CoNet: ").color(LIGHT_PURPLE).append(text("Knockoff").color(GOLD)))
+                        .append(text("CosNet: ").color(LIGHT_PURPLE).append(text("KnockOut").color(GOLD)))
                         .append(text("\n"))
         );
 
@@ -1366,7 +1366,7 @@ class TabMenu {
                 .append(text("---------------------------------------------------").color(GRAY))
                 .append(StatsPlayerList).color(WHITE)
                 .append(text("\n---------------------------------------------------\n\n").color(GRAY))
-                .append(text("Knockoff Version: " + knockoff.getInstance().getDescription().getVersion()).color(DARK_GRAY))
+                .append(text("KnockOut Version: " + knockout.getInstance().getDescription().getVersion()).color(DARK_GRAY))
         );
     }
 
