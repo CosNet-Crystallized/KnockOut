@@ -89,7 +89,7 @@ public class PlayerListener implements Listener {
 
 			ItemStack leavebutton = new ItemStack(Material.COAL, 1);
 			ItemMeta leavebuttonim = leavebutton.getItemMeta();
-			leavebuttonim.setItemModel(new NamespacedKey("crystalized", "ui/leave"));
+			leavebuttonim.setItemModel(new NamespacedKey("CosNet", "ui/leave"));
 			leavebuttonim.displayName(Component.text("Return to lobby").color(NamedTextColor.RED).decoration(TextDecoration.ITALIC, false));
 			leavebutton.setItemMeta(leavebuttonim);
 			p.getInventory().setItem(8, leavebutton);
